@@ -20,26 +20,26 @@ ul {
 }
 /* Site Nav */
 
-.site_nav .link {
+.site-nav .link {
   color: #212121;
 }
 
-.site_nav .link:hover {
+.site-nav .link:hover {
   color: #2196f3;
 }
 
-.site_nav .link:focus {
+.site-nav .link:focus {
   color: #2196f3;
 }
-.auth_nav_link {
+.auth-nav .link {
   color: #757575;
 }
 
-.auth_nav_link:hover {
+.auth-nav .link:hover {
   color: #2196f3;
 }
 
-.auth_nav_link:focus {
+.auth-nav .link:focus {
   color: #2196f3;
 }
 
@@ -49,19 +49,19 @@ ul {
   background-color: #2f303a;
 }
 
-.hero_title {
+.hero-title {
   color: white;
 }
 /* principle */
 
-.principle_list {
+.principle-list {
   color: #757575;
 }
-.principle_title {
+.principle-list .title {
   color: #212121;
 }
 /* <!-- What are we doing --> */
 
-.we_doing_title {
+.we-doing-title {
   color: #212121;
 }
