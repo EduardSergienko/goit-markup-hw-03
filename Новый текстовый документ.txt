@@ -1,0 +1,68 @@
+/* Палитра цвета */
+/* основной  -  #212121; */
+/* дополнительный  -  color: #757575;(серый)   color: #FFFFFF; (белый)  
+  цвет лого - color: #000000; (черный)   color: #2196F3;  (синий)*/
+/* контакты в футере  -  color: rgba(255, 255, 255, 0.6); */
+
+body {
+  color: #212121;
+  background-color: white;
+}
+
+ul {
+  list-style: none;
+}
+
+.logo {
+  color: #212121;
+}
+.logo_web {
+  color: #2196f3;
+}
+/* Site Nav */
+
+.site_nav .link {
+  color: #212121;
+}
+
+.site_nav .link:hover {
+  color: #2196f3;
+}
+
+.site_nav .link:focus {
+  color: #2196f3;
+}
+.auth_nav_link {
+  color: #757575;
+}
+
+.auth_nav_link:hover {
+  color: #2196f3;
+}
+
+.auth_nav_link:focus {
+  color: #2196f3;
+}
+/* Hero */
+
+.hero {
+  background-color: #2f303a;
+}
+
+.hero_title {
+  color: white;
+}
+
+/* principle */
+
+.principle_list {
+  color: #757575;
+}
+.principle_title {
+  color: #212121;
+}
+/* <!-- What are we doing --> */
+
+.we_doing_title {
+  color: #212121;
+}
