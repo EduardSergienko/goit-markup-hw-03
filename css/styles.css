@@ -104,3 +104,30 @@ ul {
 .footer .link:focus {
   color: #2196f3;
 }
+
+/* POrtfolio */
+
+/* категории  */
+
+.portfolio-categoris .button {
+  color: #212121;
+  background-color: #f5f4fa;
+}
+.portfolio-categoris .button:hover {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+.portfolio-categoris .button:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+/* работы */
+
+.portfolio .title {
+  color: #212121;
+}
+
+.portfolio .type {
+  color: #757575;
+}
