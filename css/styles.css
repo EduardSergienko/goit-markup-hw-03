@@ -1,110 +1,110 @@
-
-
 :root {
   --main-text-color: #212121;
   --complementary-color: #757575;
+  --second-complementary-color: #ffffff;
   --activity-text-color: #2196f3;
   --main-background-color: #ffffff;
-  --footer-backgraund-color: #2f303a;
+  --complementary-backgraund-color: #2f303a;
 }
 body {
-  color: var(--main-text-color)
+  color: var(--main-text-color);
+  background-color: var(--main-background-color);
 }
 
 ul {
   list-style: none;
 }
 .logo {
-  color: var(--main-text-color)
+  color: var(--main-text-color);
 }
 .logo:focus {
-  color: var(--activity-text-color)
+  color: var(--activity-text-color);
 }
 .logo_web {
-  color: var(--activity-text-color)
+  color: var(--activity-text-color);
 }
 /* Site Nav */
 
 .site-nav .link {
-  color: var(--main-text-color)
+  color: var(--main-text-color);
 }
 
 .site-nav .link:hover {
-  color: var(--activity-text-color)
+  color: var(--activity-text-color);
 }
 
 .site-nav .link:focus {
-  color: var(--activity-text-color)
+  color: var(--activity-text-color);
 }
 .auth-nav .link {
-  color: var(--complementary-color)
+  color: var(--complementary-color);
 }
 
 .auth-nav .link:hover {
-  color: var(--activity-text-color)
+  color: var(--activity-text-color);
 }
 
 .auth-nav .link:focus {
-  color: var(--activity-text-color)
+  color: var(--activity-text-color);
 }
 
 /* Hero */
 
 .hero {
-  background-color: #2f303a;
+  background-color: var(--complementary-backgraund-color);
 }
 
 .hero-title {
-  color: white;
+  color: var(--second-complementary-color);
 }
 
 .order-button {
-  background: var(--activity-text-color)
-  color: #ffffff;
+  background: var(--activity-text-color);
+  color: var(--second-complementary-color);
 }
 /* principle */
 
 .principle-list {
-  color: var(--complementary-color)
+  color: var(--complementary-color);
 }
 .principle-list .title {
-  color: var(--main-text-color)
+  color: var(--main-text-color);
 }
 /* <!-- What are we doing --> */
 
 .we-doing-title {
-  color: var(--main-text-color)
+  color: var(--main-text-color);
 }
 .our-team .title {
-  color: var(--main-text-color)
+  color: var(--main-text-color);
 }
 .our-team .position {
-  color: var(--complementary-color)
+  color: var(--complementary-color);
 }
 
 /* Подвал */
 
 .footer {
-  background-color: var(--footer-backgraund-color)
+  background-color: var(--complementary-backgraund-color);
 }
 .footer-logo {
-  color: white;
+  color: var(--second-complementary-color);
 }
 .footer-logo:focus {
-  color: var(--activity-text-color)
+  color: var(--activity-text-color);
 }
 .footer .address {
-  color: #ffffff;
+  color: var(--second-complementary-color);
 }
 
 .footer .link {
   color: rgba(255, 255, 255, 0.6);
 }
 .footer .link:hover {
-  color: var(--activity-text-color)
+  color: var(--activity-text-color);
 }
 .footer .link:focus {
-  color: var(--activity-text-color)
+  color: var(--activity-text-color);
 }
 
 /* POrtfolio */
@@ -112,24 +112,24 @@ ul {
 /* категории  */
 
 .portfolio-categoris .button {
-  color: var(--main-text-color)
+  color: var(--main-text-color);
   background-color: #f5f4fa;
 }
 .portfolio-categoris .button:hover {
-  color: #ffffff;
-  background-color: var(--activity-text-color)
+  color: var(--second-complementary-color);
+  background-color: var(--activity-text-color);
 }
 .portfolio-categoris .button:focus {
-  color: #ffffff;
-  background-color: var(--activity-text-color)
+  color: var(--second-complementary-color);
+  background-color: var(--activity-text-color);
 }
 
 /* работы */
 
 .portfolio .title {
-  color: var(--main-text-color)
+  color: var(--main-text-color);
 }
 
 .portfolio .type {
-  color: var(--complementary-color)
+  color: var(--complementary-color);
 }
