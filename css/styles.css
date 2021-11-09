@@ -15,6 +15,9 @@ ul {
 .logo {
   color: #212121;
 }
+.logo:focus {
+  color: #2196f3;
+}
 .logo_web {
   color: #2196f3;
 }
@@ -52,6 +55,11 @@ ul {
 .hero-title {
   color: white;
 }
+
+.order-button {
+  background: #2196f3;
+  color: #ffffff;
+}
 /* principle */
 
 .principle-list {
@@ -64,4 +72,35 @@ ul {
 
 .we-doing-title {
   color: #212121;
+}
+.our-team .title {
+  color: #212121;
+}
+.our-team .position {
+  color: #757575;
+}
+
+/* Подвал */
+
+.footer {
+  background-color: #2f303a;
+}
+.footer-logo {
+  color: white;
+}
+.footer-logo:focus {
+  color: #2196f3;
+}
+.footer .address {
+  color: #ffffff;
+}
+
+.footer .link {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer .link:hover {
+  color: #2196f3;
+}
+.footer .link:focus {
+  color: #2196f3;
 }
