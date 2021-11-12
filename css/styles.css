@@ -199,6 +199,11 @@ ul {
   color: var(--main-text-color);
   background-color: #f5f4fa;
   cursor: pointer;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
 }
 .portfolio-categoris .button:hover {
   color: var(--second-complementary-color);
@@ -211,10 +216,22 @@ ul {
 
 /* работы */
 
+.portfolio .link {
+  text-decoration: none;
+}
+
 .portfolio .title {
   color: var(--main-text-color);
+
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 .portfolio .type {
   color: var(--complementary-color);
+
+  font-size: 16px;
+  line-height: 1.87;
 }
