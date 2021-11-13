@@ -141,14 +141,14 @@ ul {
 
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.19px;
+  line-height: 1.19;
 }
 
 .our-team .position {
   color: var(--complementary-color);
 
   font-size: 16px;
-  line-height: 1.19px;
+  line-height: 1.19;
 }
 
 /* Подвал */
@@ -160,6 +160,7 @@ ul {
   color: var(--second-complementary-color);
   text-decoration: none;
 
+  font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
@@ -178,6 +179,7 @@ ul {
 
 .footer .link {
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 
   font-size: 14px;
   line-height: 1.71;
@@ -199,6 +201,7 @@ ul {
   color: var(--main-text-color);
   background-color: #f5f4fa;
   cursor: pointer;
+  font-family: Roboto;
 
   font-weight: 500;
   font-size: 16px;
