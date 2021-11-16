@@ -13,9 +13,23 @@ body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
-
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+}
 ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .logo {
   color: var(--main-text-color);
@@ -76,6 +90,11 @@ ul {
 
 .hero {
   background-color: var(--complementary-backgraund-color);
+  margin-bottom: 94px;
+  text-align: center;
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-title {
@@ -84,9 +103,10 @@ ul {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
+
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin-bottom: 30px;
 }
 
 .order-button {
@@ -108,6 +128,7 @@ ul {
 
   font-size: 14px;
   line-height: 1.71;
+  margin-bottom: 94px;
 }
 .principle-list .title {
   color: var(--main-text-color);
@@ -116,6 +137,7 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 /* <!-- What are we doing --> */
 
@@ -126,7 +148,15 @@ ul {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+  margin-bottom: 50px;
 }
+
+.skils {
+  margin-bottom: 94px;
+}
+
+/* Our team */
+
 .our-team .title {
   color: var(--main-text-color);
 
@@ -142,6 +172,7 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+  margin-bottom: 10px;
 }
 
 .our-team .position {
@@ -155,8 +186,13 @@ ul {
 
 .footer {
   background-color: var(--complementary-backgraund-color);
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 94px;
 }
 .footer-logo {
+  display: inline-block;
   color: var(--second-complementary-color);
   text-decoration: none;
 
@@ -164,6 +200,8 @@ ul {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
+  margin-top: 60px;
+  margin-bottom: 20px;
 }
 .footer-logo:focus {
   color: var(--activity-text-color);
@@ -196,6 +234,10 @@ ul {
 /* POrtfolio */
 
 /* категории  */
+.portfolio-categoris {
+  margin-top: 94px;
+  margin-bottom: 56px;
+}
 
 .portfolio-categoris .button {
   color: var(--main-text-color);
@@ -230,6 +272,7 @@ ul {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-bottom: 10px;
 }
 
 .portfolio .type {
