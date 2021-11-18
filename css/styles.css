@@ -30,7 +30,6 @@ ul {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  display: flex;
 }
 .logo {
   color: var(--main-text-color);
@@ -53,9 +52,12 @@ ul {
   color: var(--activity-text-color);
 }
 /* Site Nav */
+.head-nav {
+  height: 80px;
+  display: flex;
+}
 .headnav {
   display: flex;
-  margin-right: 331px;
 }
 .headnav .item:not(:last-child) {
   margin-right: 50px;
@@ -99,6 +101,9 @@ ul {
 
 .contacts .link:focus {
   color: var(--activity-text-color);
+}
+.contacts .link {
+  margin-left: 50px;
 }
 
 /* Hero */
