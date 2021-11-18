@@ -58,6 +58,7 @@ ul {
 }
 .headnav {
   display: flex;
+  margin-right: 331px;
 }
 .headnav .item:not(:last-child) {
   margin-right: 50px;
@@ -102,10 +103,9 @@ ul {
 .contacts .link:focus {
   color: var(--activity-text-color);
 }
-.contacts .link {
+.contacts .item + .item {
   margin-left: 50px;
 }
-
 /* Hero */
 
 .hero {
