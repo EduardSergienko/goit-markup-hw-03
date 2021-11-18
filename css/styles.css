@@ -30,6 +30,7 @@ ul {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  display: flex;
 }
 .logo {
   color: var(--main-text-color);
@@ -42,6 +43,8 @@ ul {
   line-height: 1.19;
 
   letter-spacing: 0.03em;
+
+  margin-right: 93px;
 }
 .logo:focus {
   color: var(--activity-text-color);
@@ -50,7 +53,13 @@ ul {
   color: var(--activity-text-color);
 }
 /* Site Nav */
-
+.headnav {
+  display: flex;
+  margin-right: 331px;
+}
+.headnav .item:not(:last-child) {
+  margin-right: 50px;
+}
 .site-nav .link {
   color: var(--main-text-color);
   text-decoration: none;
@@ -60,6 +69,9 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+.site-nav {
+  display: flex;
+}
 
 .site-nav .link:hover {
   color: var(--activity-text-color);
@@ -67,6 +79,9 @@ ul {
 
 .site-nav .link:focus {
   color: var(--activity-text-color);
+}
+.contacts {
+  display: flex;
 }
 .contacts .link {
   color: var(--complementary-color);
