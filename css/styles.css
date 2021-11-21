@@ -332,6 +332,9 @@ ul {
 }
 
 /* работы */
+.poster {
+  display: block;
+}
 
 .portfolio {
   display: flex;
@@ -374,9 +377,7 @@ ul {
   font-size: 16px;
   line-height: 1.87;
   padding-left: 24px;
-  /* border-left: 1px solid #eeeeee;
-  border-bottom: 1px solid #eeeeee;
-  border-right: 1px solid #eeeeee; */
+  padding-bottom: 20px;
 }
 .border {
   border-left: 1px solid #eeeeee;
