@@ -161,7 +161,9 @@ ul {
 .principle {
   padding-bottom: 0;
 }
-
+.principle-list .item {
+  width: 270px;
+}
 .principle-list .item + .item {
   margin-left: 30px;
 }
@@ -181,7 +183,9 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
+
 /* <!-- What are we doing --> */
 
 .we-doing-title {
@@ -191,7 +195,7 @@ ul {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 .we-doing-list {
   display: flex;
@@ -223,7 +227,7 @@ ul {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .our-team .name {
@@ -232,7 +236,9 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+  /* padding-top: 30px; */
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .our-team .position {
@@ -240,6 +246,13 @@ ul {
 
   font-size: 16px;
   line-height: 1.19;
+  text-align: center;
+  /* padding-bottom: 30px; */
+}
+.worker {
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 
 /* Подвал */
@@ -249,6 +262,9 @@ ul {
   width: 1600px;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 215px;
 }
 .footer-logo {
   display: inline-block;
@@ -259,7 +275,7 @@ ul {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
-  margin-top: 60px;
+  /* margin-top: 60px; */
   margin-bottom: 20px;
 }
 .footer-logo:focus {
@@ -290,8 +306,8 @@ ul {
   color: var(--activity-text-color);
 }
 .contacts-footer {
-  display: inline-block;
-  margin-bottom: 50px;
+  /* display: inline-block; */
+  /* margin-bottom: 50px; */
 }
 .contacts-footer .address {
   margin-bottom: 9px;
