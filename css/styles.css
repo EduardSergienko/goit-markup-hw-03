@@ -270,13 +270,14 @@ header {
 /* Подвал */
 footer {
   background-color: var(--complementary-backgraund-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer {
   /* width: 1600px; */
   margin-left: auto;
   margin-right: auto;
-  padding-top: 60px;
-  padding-bottom: 60px;
+
   /* padding-left: 215px; */
 }
 .footer-logo {
